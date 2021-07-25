@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>TheHeroesOfTheUniverse</title>
+    <script src="/three.js-master/build/three.js"></script>
+    <script src="GLTFLoader.js"></script>
+	<script src="Sky.js"></script>
+    
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+    </script>
+		<style>
+			body { 
+                margin: 0; 
+                background-repeat: no-repeat;
+				background-position: 0 0;
+				-moz-background-size: cover;
+				-webkit-background-size: cover;
+				background-size: cover; 
+				background-color: rgb(218, 178, 99);
+				/* background="sfondo.jpeg" */
+				
+				/* background-color: rgba(16, 6, 84, 0.914); */
+            }
+      
+			#button{
+				width: 250px;
+				height: 100px;
+			}
+			@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&display=swap');
+		</style>
+	</head>
+	<body >
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<audio autoplay loop>
+			<source src="song.mp3" type="audio/mp3">
+		</audio>
+
+		<center>
+			<p style="font-family: 'Marvel', sans-serif; font-size: 80px; color: rgb(176, 56, 56); font-weight: bolder;" >
+				The Heroes Of The Universe
+			</p>	
+		</center>
+		<br><br><br><br><br><br>
+		<center>
+			<img style="width: 20%;" src="lego1.png">
+		<img  style="width: 20%;" src="lego2.png">
+		</center>
+		
+		<br><br><br><br><br><br>
+		<center>
+			<button style="border-radius:50px;" id="button" type="button" class="btn btn-danger" onclick="window.location.href='rules.html'"> 
+				<p style=" font-family: 'Marvel', sans-serif; font-size: 40px; color: rgb(213, 196, 196); ">Rules</p>
+			</button>
+
+			<button style="border-radius:50px;" id="button" type="button" class="btn btn-danger" onclick="window.location.href='index.html'"> 
+				<p style=" font-family: 'Marvel', sans-serif; font-size: 40px; color: rgb(213, 196, 196); ">Start Game</p>
+			</button>
+
+		</center>
+		
+	</body>
+</html>
